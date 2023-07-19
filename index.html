@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Health Screening Quiz</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <style>
+    body {
+      background-image: url("medical-image.png");
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+  </style>
+</head>
+<body>
+  <div id="question-container">
+    <h2 id="question-text"></h2>
+    <div id="choices-container"></div>
+  </div>
+
+  <button id="start-button">Start Quiz</button>
+
+  <div id="result-container" style="display: none;">
+    <h2>Thank you for your time!</h2>
+    <p>Your initials: <span id="initials"></span></p>
+    <p>Your score: <span id="score"></span></p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
